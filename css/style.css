@@ -1,3 +1,120 @@
 body {
-  font-family: 'Open Sans', sans-serif;
+font-family: 'Open Sans', sans-serif;
+}
+h1 {
+  font-weight: 800;
+  font-size: 48px;
+  color: white;
+  padding-left: 15px;
+}
+h2 {
+  font-weight:600;
+  font-size: 48px;
+  color: white;
+  text-align: center;
+}
+h3 {
+  font-weight:600;
+  font-size: 40px;
+}
+li {
+  padding: 10px 0 10px 0;
+}
+.benefits {
+  background-color: #f0efef;
+  padding: 15px;
+}
+.benefits p {
+  font-weight:200;
+  font-size: 26px;
+  color: #606161;
+  padding-left: 15px;
+  width: 610px;
+}
+.benefits ul {
+  font-weight:200;
+  font-size: 26px;
+  color: #606161;
+  width: 500px;
+}
+.button_1 {
+  font-weight:800;
+  font-size: 28px;
+  color: black;
+  border: solid #f9e42e 5px;
+  border-radius: 5px;
+  background-color: #f9e42e;
+  width: 200px;
+  padding: 10px;
+  margin: auto;
+  text-align: center;
+  text-decoration-line: none;
+}
+.button_1 a:visited {
+  color: black
+}
+.button_2 {
+  font-weight:800;
+  font-size: 28px;
+  color: white;
+  border: solid #033048 5px;
+  border-radius: 5px;
+  background-color: #033048;
+  width: 200px;
+  padding: 10px;
+  margin: auto;
+  text-align: center;
+  text-decoration-line: none;
+}
+.button_2 a:visited {
+  color: white;
+}
+.copyright {
+  background-color: black;
+  font-weight:600;
+  font-size: 18px;
+  color: white;
+  text-align: center;
+  margin: auto;
+  padding: 20px;
+}
+.footer {
+  background-color: black;
+  color: #f9e42e;
+  font-size: 48px;
+  font-weight: 800;
+  text-align: center;
+  margin: auto;
+  padding: 20px;
+}
+.hero {
+  background-image: url("../images/header_bg.jpg");
+  background-size: cover;
+  padding: 10px 0 250px 0;
+}
+.quote {
+  background-image: url("../images/testimonial_bg.jpg");
+  background-size: cover;
+  padding: 70px 0 90px 0;
+  text-align: center;
+  margin: auto;
+  color: #f0efef;
+  font-size: 36px;
+}
+.quote blockquote {
+  font-style: italic;
+  font-weight:200;
+  width: 400px;
+  text-align: center;
+  margin: auto;
+  padding-bottom: 10px;
+}
+.quote span {
+  font-size: 36px;
+  font-weight: 600;
+}
+.yellow {
+  background-color: #f9e42e;
+  height: 20px;
+  padding: 50px 0 70px 0;
 }
