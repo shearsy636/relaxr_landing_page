@@ -6,6 +6,7 @@ h1 {
   font-size: 48px;
   color: white;
   padding-left: 15px;
+  margin-left: 50px;
 }
 h2 {
   font-weight:600;
@@ -16,15 +17,20 @@ h2 {
 h3 {
   font-weight:600;
   font-size: 40px;
+  margin-left: 50px;
 }
 ul {
   list-style: disc outside;
+  margin-left: 80px;
 }
 li {
   padding: 10px 0 10px 0;
 }
 img {
   margin: 15px;
+}
+.assistant {
+  margin-left: 50px;
 }
 .benefits {
   background-color: #f0efef;
@@ -113,14 +119,15 @@ img {
 .quote blockquote {
   font-style: italic;
   font-weight:200;
-  width: 400px;
+  width: 600px;
   text-align: center;
   margin: auto;
-  padding-bottom: 10px;
+  padding-bottom: 30px;
 }
 .quote span {
   font-size: 36px;
   font-weight: 600;
+  padding-top: 15px;
 }
 .yellow {
   background-color: #f9e42e;
