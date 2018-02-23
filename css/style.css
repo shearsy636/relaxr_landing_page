@@ -17,8 +17,14 @@ h3 {
   font-weight:600;
   font-size: 40px;
 }
+ul {
+  list-style: disc outside;
+}
 li {
   padding: 10px 0 10px 0;
+}
+img {
+  margin: 15px;
 }
 .benefits {
   background-color: #f0efef;
@@ -60,7 +66,7 @@ li {
   border: solid #033048 5px;
   border-radius: 5px;
   background-color: #033048;
-  width: 200px;
+  width: 300px;
   padding: 10px;
   margin: auto;
   text-align: center;
@@ -68,6 +74,9 @@ li {
 }
 .button_2 a:visited {
   color: white;
+}
+.underline{
+  text-decoration: none;
 }
 .copyright {
   background-color: black;
@@ -117,4 +126,7 @@ li {
   background-color: #f9e42e;
   height: 20px;
   padding: 50px 0 70px 0;
+}
+.twitter a:visited {
+  color:black;
 }
